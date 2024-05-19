@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Warner Salazar Badilla">
+    <meta name="description" content="Tarea 1">
+    <meta name="keywords" content="HTML, ejemplo, etiquetas">
+    <title>Ejemplo de Etiquetas HTML Tarea 1</title>
+    <base href="https://www.ejemplo.com/">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <h1>Ejemplo de Etiquetas HTML</h1>
+        <img src="https://cdn.pixabay.com/photo/2024/02/26/19/39/monochrome-image-8598798_1280.jpg" alt="Perro" width="100">
+    </header>
+
+    <main>
+        <section>
+            <h2>1- Etiquetas de estructura básica</h2>
+            <p>Existen muchas catástrofes naturales, como los incendios forestales, los terremotos, los tsunamis, las avalanchas, las sequías, los fenómenos atmosféricos, las erupciones volcánicas y las epidemias. Pero el origen de estos fenómenos no siempre son eventos ambientales, ya que en algunos casos la actividad del ser humano es la causa o una de las causas. La contaminación, el cambio climático, las inundaciones y los incendios son eventos que afectan de manera considerable al medioambiente y que son producidos, en gran parte, por las personas. (párrafo inductivo-deductivo)
+            Fuente: https://www.ejemplos.co/parrafos-informativos/#ixzz8aXiRCuFi</p>
+        </section>
+
+        <section>
+            <h2>2- Etiquetas de estructura de sección</h2>
+            <h3>Encabezados</h3>
+            <h1>Prueba de encabezado de nivel 1</h1>
+            <h2>Prueba de encabezado de nivel 2</h2>
+            <h3>Prueba de encabezado de nivel 3</h3>
+            <h4>Prueba de encabezado de nivel 4</h4>
+            <h5>Prueba de encabezado de nivel 5</h5>
+            <h6>Prueba de encabezado de nivel 6</h6>
+
+            <hgroup>
+                <h1>Título Principal</h1>
+                <h2>Subtítulo</h2>
+                <h3>Otro subtítulo</h3>
+            </hgroup>
+
+            <address>
+                <p>Autor: Warner Salazar Badilla</p>
+                <p>Correo: wasalazarba@est.utn.ac.cr"</p>
+                <p>Telefono: 86033576</p>
+                <p>src="https://www.youtube.com/watch?v=iywaBOMvYLI&list=RDiywaBOMvYLI&start_radio=1"</p>
+            </address>
+
+            <div>
+                <p>Este es un ejemplo de una división de contenido de la página de Microsoft.</p>
+            </div>
+
+            <iframe src="https://www.microsoft.com/es-cr/" width="560" height="315"></iframe>
+        </section>
+
+
+
+        <section>
+            <h2>3- Etiquetas de estructura de grupo:</h2>
+            <h3>Listas</h3>
+            <ul>
+                <li>Elemento de lista desordenada 1</li>
+                <li>Elemento de lista desordenada 2</li>
+                <li>Elemento de lista desordenada 3</li>
+                <li>Elemento de lista desordenada 4</li>
+                <li>Elemento de lista desordenada 5</li>
+            </ul>
+            <ol>
+                <li>Elemento de lista ordenada 1</li>
+                <li>Elemento de lista ordenada 2</li>
+                <li>Elemento de lista ordenada 3</li>
+                <li>Elemento de lista ordenada 4</li>
+                <li>Elemento de lista ordenada 5</li>
+            </ol>
+
+            <dl>
+                <dt>Término 1</dt>
+                <dd><h6>Descripción del término 1</h6></dd>
+                <dt>Término 2</dt>
+                <dd><h1>Descripción del término 2</h1></dd>
+            </dl>
+
+            <figure>
+                <dt><p>Imágen de dragón</p></dt>
+                <img src="https://img.freepik.com/foto-gratis/imagen-inteligencia-artificial-dragones-fantasia_23-2150400884.jpg?size=626&ext=jpg&ga=GA1.1.44546679.1715990400&semt=sph" alt="Ejemplo de Imagen">
+                <figcaption>Figura 1: Dragón.</figcaption>
+            </figure>
+
+            <details>
+                <summary>Más información</summary>
+                <p>Se expande! ---- Hola!.</p>
+            </details>
+
+            <dialog open>Dialogo.</dialog>
+        </section>
+
+        <section>
+            <h2>4- Etiquetas de Texto</h2>
+
+            <p>Este es un párrafo de ejemplo. <br> Este texto está separado por un salto de línea.</p>
+
+            <pre>
+                Texto preformateado
+                con saltos de línea y espacios
+                conservados
+                Probando
+                Probando.
+            </pre>
+
+            <blockquote>
+                Esta es una cita en bloque de un documento HTML.
+                Sin salto.
+            </blockquote>
+
+            <p>Esta es una <q>cita en línea</q> dentro de un párrafo. Osea, <q>entre comillas</q></p>
+
+            <p><cite>El título de una obra citada. Es como cursiva.</cite></p>
+
+            <p>Esta es una <abbr title="abreviatura">abbr(abreviatura)</abbr> dentro de un párrafo. <abbr title="Subrayado.">subrayado</abbr></p>
+
+            <p>Esta es una <dfn title="definición">dfn</dfn> dentro de un párrafo. <dfn title="definición">Como cursiva</dfn></p>
+
+            <p><code>Ejemplo de código</code> en línea. Como el tipo de fuente</p>
+
+            <p><kbd>Ctrl + C</kbd> para copiar. Es para poder especificar entradas de comandos</p>
+
+            <p><b>Texto en negrita</b></p>
+
+            <p><strong>Texto fuerte.</strong> = Importancia del texto.</p> 
+
+            <p><i>Texto en cursiva</i></p>
+
+            <p><em>Texto enfático</em>. Resalta el texto</p>
+
+            <p><mark>Texto marcado</mark>. Como si fuera con el marcador amarillo</p>
+
+            <p><small>Texto pequeño</small></p>
+
+            <p><del>Texto eliminado</del>. Con una línea en medio del texto</p>
+
+            <p><ins>Texto insertado</ins>. Como un subrayado</p>
+
+            <p>H<sub>2</sub>O (fórmula química con subíndice). Ahi el 2 es el que sale abajo.</p>
+
+            <p>E=mc<sup>2</sup> (fórmula con superíndice). El 2 es arriba.</p>
+
+            <p><time datetime="2024-05-17">17 de mayo de 2024</time></p>
+
+            <p>Datos con valor asociado: <data value="42">la respuesta</data>. Aqui asigna el valor 42 al texto?</p>
+
+            <p><span style="color: red;">Texto con estilo aplicado</span>. Ahi seria en rojo que saldria el texto</p>
+        </section>
+
+        <section>
+            <h2>5. Etiquetas de enlace</h2>
+
+            <p>Este es un <a href="https://www.youtube.com/">enlace</a> Youtube link.</p>
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Political_map_of_the_World_%28January_2015%29.svg/450px-Political_map_of_the_World_%28January_2015%29.svg.png" usemap="Ejemplo de mapa" alt="Mapa mundi">
+
+            <map name="Ejemplo de mapa">
+                <area shape="rect" coords="10,10,100,100" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7QkWYnc3YBklM4k9ogMLNRhmygW1P7gUKlUNlsQ7cbw&s" alt="Otro mapa">
+                <area shape="circle" coords="225,150,50" href="https://www.shutterstock.com/image-vector/map-republic-costa-rica-provinces-600nw-44544031.jpg" alt="Costa Rica">
+            </map>
+        </section>
+
+        <section>
+            <h2>6. Etiquetas de imágen:</h2>
+            
+            <br><img src="https://mxgame.sport.blog/wp-content/uploads/2023/07/deportivos.webp?w=1024" alt="Carro" width="200"> 
+            With es para el tamanno de la imagen</br>
+
+            <br><picture>
+                <source srcset="https://www.elcarrocolombiano.com/wp-content/uploads/2023/05/20230509-100-CARROS-MAS-VENDIDOS-DEL-MUNDO-EN-2022-01.jpg" media="(min-width: 400px)">
+                <source srcset="https://blog.continentalmotores.com/hs-fs/hubfs/SOLUCIONWEB/Blog/Posts%20blogs/continental-motores-carros-en-guatemala-volkswagen-blog-un-carro-de-origen-aleman-conoce-sus-ventajas.jpg?width=715&name=continental-motores-carros-en-guatemala-volkswagen-blog-un-carro-de-origen-aleman-conoce-sus-ventajas.jpg" media="(min-width: 400px)">
+                <img src="imagen-pequena.jpg" alt="Ejemplo de Imagen con picture">
+            </picture></br>
+
+            <br><canvas id="Canvas" width="200" height="200"></canvas></br>
+
+            <br><svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+            </svg></br>
+        </section>
+
+        <section>
+            <h2>7. Etiquetas de miltimedia</h2>
+
+            <audio controls>
+                <source src="audio.mp3" type="audio">
+                Navegador no soporta la etiqueta de audio.
+            </audio>
+
+            <video controls width="400">
+                <source src="video.mp4" type="video/mp4">
+                Navegador no soporta la etiqueta de video.
+                <track src="subtitulos.vtt" kind="subtitles" srclang="es" label="Español">
+            </video>
+
+            <iframe src="https://www.youtube.com/watch?v=3YxaaGgTQYM&list=RDiywaBOMvYLI&index=14" width="560" height="315"></iframe>
+        </section>
+    </main>
+</body>
+</html>
